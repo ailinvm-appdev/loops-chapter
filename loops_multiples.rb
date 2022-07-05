@@ -18,4 +18,9 @@
 # 20
 
 p "Enter a number:"
+input = gets.chomp 
+
+1.upto(10) do |numIncrement|
+  p numIncrement * input.to_i 
+end
 
